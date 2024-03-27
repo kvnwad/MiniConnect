@@ -1,0 +1,139 @@
+body {
+    font-size: clamp(.5rem, 2.5vmin, 1.5rem);
+    
+}
+.cell{
+    width: 9.31em;
+    height: 4.8em;
+    border: 0.12em solid black;
+    margin: 0.2em;
+    color: black;
+    text-transform: uppercase;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    border-radius: .83em;
+    
+    font-family: monospace;
+    caret-color: transparent;
+    font-size: inherit;
+    
+    
+    
+  
+    
+}
+
+.cell.right{
+    background-color: greenyellow;
+
+}
+
+.cell.wrong{
+    background-color: red;
+}
+
+
+#gameContainer{
+    font-family:'Trebuchet MS';
+    font-size: larger;
+    text-align: center;
+    margin: auto;
+}
+
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    justify-content: center;
+}
+
+.grid{
+    display: flex;
+    
+
+}
+
+#GoBtn {
+    background-color: white;
+    width: 9.31em;
+    height: 4.8em;
+    border: 0.12em solid black;
+    margin: 0.2em;
+    color: black;
+    text-transform: uppercase;
+ 
+    place-items: center;
+    text-align: center;
+    border-radius: .83em;
+    
+    justify-content: center;
+    cursor: pointer;
+    font-family: monospace;
+    font-size: inherit;
+
+}
+
+#GoBtn.wait {
+    background-color: white;
+    border-color: grey;
+    color: grey;
+
+}
+
+
+
+.life {
+    background-color: greenyellow;
+    width: 1em;
+    height: 1em;
+    border: .12em solid black;
+    margin: .3em;
+    color: black;
+    place-items: center;
+    text-align: center;
+    border-radius: 100em;
+    justify-content: center;
+    display: grid;
+    
+
+}
+
+.life.minus {
+    background-color: red;
+}
+
+#lifeContainer {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(1, auto);
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    justify-content: center;
+    padding-top: .5em;
+
+}
+
+.animated{
+    animation: flip 0.8s ease;
+}
+@keyframes flip {
+    0% {
+        transform: scaleY(1);
+        
+    }
+    50% {
+        transform: scaleY(0);
+       
+    }
+    100% {
+        transform: scaleY(1);
+        
+    }
+    
+}
+
