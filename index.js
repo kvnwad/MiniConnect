@@ -2,45 +2,50 @@ const cells = document.querySelectorAll(".cell")
 const CheckBtn = document.querySelector("#GoBtn")
 const lifes = document.querySelectorAll(".life")
 let lives = 4
-let options4  = ["write", "pencil", "tool", 
+
+const arr = 
+[ ["write", "pencil", "tool", 
 "modern", "ipad", "paper"
-,"granny smith", "apple", "gala"];
+,"granny smith", "apple", "gala"],
 
-let options9  = ["train", "track", "music", 
+            ["train", "track", "music", 
                 "physics", "field", "anthropology"
-        ,"football", "soccer", "goalie"];
-let options5  = ["fast", "flash", "superhero", 
+        ,"football", "soccer", "goalie"],
+
+        ["fast", "flash", "superhero", 
 "red", "card", "soccer"
-,"debit", "credit", "cash"];
+,"debit", "credit", "cash"],
 
-let options7  = ["soft", "pillow", "sleep", 
+    ["soft", "pillow", "sleep", 
             "murder", "case", "investigation"
-            ,"android", "phone", "apple"];
+            ,"android", "phone", "apple"],
 
-let options3  = ["beans", "coffee", "starbucks", 
+    ["beans", "coffee", "starbucks", 
             "cold", "water", "hot"
-            ,"bag", "tea", "cup"];
+            ,"bag", "tea", "cup"],
 
-let optionsd  = ["hey", "hi", "hello", 
+    ["hey", "hi", "hello", 
             "bullies", "school", "friends"
-            ,"freshman", "junior", "sophmore"];
+            ,"freshman", "junior", "sophmore"],
 
-let optionss  = ["monster", "cookie", "blue", 
+    ["monster", "cookie", "blue", 
             "grill", "bake", "fry"
-            ,"hot", "oven", "mitts"];
+            ,"hot", "oven", "mitts"],
 
-let optionsg  = ["princess", "cinderella", "shoe", 
+        ["princess", "cinderella", "shoe", 
             "plus", "disney", "cruise"
-            ,"club house", "mickey", "mouse"];
+            ,"club house", "mickey", "mouse"],
 
-let optionsv  = ["Amy", "superstore", "Jonah", 
+    ["Amy", "superstore", "Jonah", 
             "popcorn", "snack", "break"
-            ,"human beings", "community", "city college"];
+            ,"human beings", "community", "city college"],
 
-            let options  = ["dumb", "slow", "speed", 
+           ["dumb", "slow", "speed", 
             "green", "turtle", "crochet"
-            ,"wave", "ocean", "beach"];
+            ,"wave", "ocean", "beach"]
+]
 
+const options = arr[(Math.floor(Math.random() * (arr.length)))];
 
 
 
