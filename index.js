@@ -4,45 +4,57 @@ const lifes = document.querySelectorAll(".life")
 let lives = 4
 
 const arr = 
-[ ["write", "pencil", "tool", 
-"modern", "ipad", "paper"
-,"granny smith", "apple", "gala"],
+[           ["write", "pencil", "tool", 
+            "modern", "ipad", "paper"
+            ,"granny smith", "apple", "gala"],
 
             ["train", "track", "music", 
-                "physics", "field", "anthropology"
-        ,"football", "soccer", "goalie"],
+            "physics", "field", "anthropology"
+            ,"football", "soccer", "goalie"],
 
-        ["fast", "flash", "superhero", 
-"red", "card", "soccer"
-,"debit", "credit", "cash"],
+            ["fast", "flash", "superhero", 
+            "red", "card", "soccer"
+            ,"debit", "credit", "cash"],
 
-    ["soft", "pillow", "sleep", 
+            ["soft", "pillow", "sleep", 
             "murder", "case", "investigation"
             ,"android", "phone", "apple"],
 
-    ["beans", "coffee", "starbucks", 
+            ["beans", "coffee", "starbucks", 
             "cold", "water", "hot"
             ,"bag", "tea", "cup"],
 
-    ["hey", "hi", "hello", 
+            ["hey", "hi", "hello", 
             "bullies", "school", "friends"
             ,"freshman", "junior", "sophmore"],
 
-    ["monster", "cookie", "blue", 
+            ["monster", "cookie", "blue", 
             "grill", "bake", "fry"
             ,"hot", "oven", "mitts"],
 
-        ["princess", "cinderella", "shoe", 
+            ["princess", "cinderella", "shoe", 
             "plus", "disney", "cruise"
             ,"club house", "mickey", "mouse"],
 
-    ["Amy", "superstore", "Jonah", 
+            ["Amy", "superstore", "Jonah", 
             "popcorn", "snack", "break"
             ,"human beings", "community", "city college"],
 
            ["dumb", "slow", "speed", 
             "green", "turtle", "crochet"
-            ,"wave", "ocean", "beach"]
+            ,"wave", "ocean", "beach"],
+
+            ["quack", "duck", "beak", 
+            "dirty", "bath", "clean"
+            ,"soap", "bubble", "sphere"],
+
+            ["wet", "water", "hydration", 
+            "fancy", "titanic", "sink"
+            ,"ocean", "boat", "vehicle"],
+
+            ["rat", "mouse", "tail", 
+            "top", "computer", "desk"
+            ,"piano", "keyboard", "keys"]
 ]
 
 const options = arr[(Math.floor(Math.random() * (arr.length)))];
